@@ -5,13 +5,11 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * Unit test for simple App.
+ * Unit test for UsCitizen.
  */
 public class UsCitizenTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    // checks if the new nonimmigrant is successfully added to the list
     @Test
     public void testRequestEntry(){
         UsCitizen citizen = new UsCitizen("John", true);
@@ -20,6 +18,7 @@ public class UsCitizenTest
         assertTrue(citizen.existingNonImm.contains("Bob"));
     }
     
+    // checks if a US citizen is able to request a nonimmigrant entry twice
     @Test
     public void testRequestEntryInSystem(){
         UsCitizen citizen = new UsCitizen("John", true);
@@ -28,6 +27,7 @@ public class UsCitizenTest
         assertFalse(tst); //cannot add duplicates
     }
 
+    // checks if a non-US citizen is able to request nonimmigrant entry
     @Test
     public void testRequestEntryNotCitizen(){
         UsCitizen citizen = new UsCitizen("John", false);
@@ -35,9 +35,10 @@ public class UsCitizenTest
         assertFalse(tst);
     }
 
+    // checks the status of the form
     @Test
     public void testResponse(){
-        UsCitizen citizen = new UsCitizen("John", false);
+        UsCitizen citizen = new UsCitizen("John", true);
         boolean tst = citizen.getResponse();
         assertTrue(tst);
     }
