@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.gmu.cs321.UsCitizenTest" time="0.035" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\flutt\Desktop\CS-SWE-Classes\CS 321\nonimm-domain\nonimm-domain\target\test-classes;C:\Users\flutt\Desktop\CS-SWE-Classes\CS 321\nonimm-domain\nonimm-domain\target\classes;C:\Users\flutt\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\flutt\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\flutt\AppData\Local\Temp\surefire11627809094336328137\surefirebooter4227012255257933207.jar C:\Users\flutt\AppData\Local\Temp\surefire11627809094336328137 2024-10-21T21-09-10_409-jvmRun1 surefire16868964771645727678tmp surefire_01017234713143112900tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="edu.gmu.cs321.UsCitizenTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\flutt\Desktop\CS-SWE-Classes\CS 321\nonimm-domain\nonimm-domain\target\test-classes;C:\Users\flutt\Desktop\CS-SWE-Classes\CS 321\nonimm-domain\nonimm-domain\target\classes;C:\Users\flutt\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\flutt\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\flutt"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\flutt\Desktop\CS-SWE-Classes\CS 321\nonimm-domain\nonimm-domain"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\flutt\AppData\Local\Temp\surefire11627809094336328137\surefirebooter4227012255257933207.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23+37-2369"/>
+    <property name="user.name" value="flutt"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Users\flutt\.vscode\extensions\oracle.oracle-java-23.0.0\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\flutt\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\flutt\AppData\Local\Temp\"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="C:\Users\flutt\Desktop\CS-SWE-Classes\CS 321\nonimm-domain\nonimm-domain"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\msys64\mingw64\bin;C:\Program Files\HP\HP One Agent;C:\Users\flutt\AppData\Local\Microsoft\WindowsApps;C:\Users\flutt\AppData\Local\atom\bin;C:\Users\flutt\AppData\Local\Microsoft\WindowsApps;C:\Users\flutt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\flutt\AppData\Roaming\TinyTeX\bin\windows;C:\msys64\mingw64\bin;C:\Users\flutt\AppData\Local\GitHubDesktop\bin;C:\Users\flutt\Desktop\CS-SWE-Classes\CS 321\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23+37-2369"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testRequestEntry" classname="edu.gmu.cs321.UsCitizenTest" time="0.003"/>
+  <testcase name="testRequestEntryNotCitizen" classname="edu.gmu.cs321.UsCitizenTest" time="0"/>
+  <testcase name="testResponse" classname="edu.gmu.cs321.UsCitizenTest" time="0"/>
+  <testcase name="testRequestEntryInSystem" classname="edu.gmu.cs321.UsCitizenTest" time="0"/>
+</testsuite>
