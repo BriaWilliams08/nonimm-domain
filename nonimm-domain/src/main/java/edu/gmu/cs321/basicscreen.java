@@ -18,7 +18,7 @@ public class basicscreen extends JFrame {
        
         formIdLabel = new JLabel("Form ID: " + entryForm.getformid());
         dateLabel = new JLabel("Date: " + entryForm.getdate());
-        stepLabel = new JLabel("Step: " + entryForm.getStep());
+        stepLabel = new JLabel(entryForm.getStep());
 
         // labels for id date and step
         add(new JLabel("Form ID:"));
